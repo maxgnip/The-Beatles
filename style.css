@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Хедер */
+header {
+  background: #222;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #bbb;
+}
+
+/* Герой-зображення */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Секції */
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  color: #444;
+}
+
+/* Списки */
+ul, ol {
+  padding-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  background: #eaeaea;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
